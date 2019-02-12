@@ -47,7 +47,7 @@ import java.util.*;
 public class ZrLogConfig extends JFinalConfig {
 
     private static final Logger LOGGER = Logger.getLogger(ZrLogConfig.class);
-    private static final String DEFAULT_PREVIEW_DB_HOST = "demo.blog.zrlog.com";
+    private static final String DEFAULT_PREVIEW_DB_HOST = "10.82.254.142";
     private static String jdbcUrl;
     public static final String INSTALL_ROUTER_PATH = "/install";
     public static String JDBC_URL_BASE_QUERY_PARAM = "characterEncoding=UTF-8&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=GMT";
